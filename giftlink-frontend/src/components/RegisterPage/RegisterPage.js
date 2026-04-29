@@ -77,10 +77,46 @@ function RegisterPage() {
                                 id="firstName"
                                 type="text"
                                 className="form-control"
-                                placeholder="Enter your firstName"
+                                placeholder="Enter your first name"
                                 value={firstName}
                                 onChange={(e) => setFirstName(e.target.value)}
                             />
+                        </div>
+                        <div className="mb-4">
+                            <label htmlFor="lastName" className="form label"> lastName</label><br/>
+                            <input
+                                id="lastName"
+                                type="text"
+                                className="form-control"
+                                placeholder="Enter your last name"
+                                value={lastName}
+                                onChange={(e) => setLastName(e.target.value)}
+                            />
+                        </div>
+                        <div className="mb-4">
+                            <label htmlFor="email" className="form label"> Email</label><br/>
+                            <input
+                                id="email"
+                                type="text"
+                                className="form-control"
+                                placeholder="Enter your Email"
+                                value={email}
+                                onChange={(e) => setEmail(e.target.value)}
+                            />
+                        </div>
+                        <div className="mb-4">
+                            <label htmlFor="password" className="form label"> Password</label><br/>
+                            <input
+                                id="password"
+                                type="password"
+                                className="form-control"
+                                placeholder="Enter a password"
+                                value={password}
+                                onChange={(e) => setPassword(e.target.value)}
+                            />
+                        </div>
+                        <div className="mb-4">
+                            <p>{showerr}</p>
                         </div>
 
                         {/* insert code here to create a button that performs the `handleRegister` function on click */}
