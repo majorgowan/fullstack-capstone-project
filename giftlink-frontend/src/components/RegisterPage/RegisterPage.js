@@ -72,7 +72,7 @@ function RegisterPage() {
                         {/* insert code here to create input elements for all the variables - firstName, lastName, email, password */}
 
                         <div className="mb-4">
-                            <label htmlFor="firstName" className="form label"> FirstName</label><br/>
+                            <label htmlFor="firstName" className="form label"> First Name</label><br/>
                             <input
                                 id="firstName"
                                 type="text"
@@ -83,7 +83,7 @@ function RegisterPage() {
                             />
                         </div>
                         <div className="mb-4">
-                            <label htmlFor="lastName" className="form label"> lastName</label><br/>
+                            <label htmlFor="lastName" className="form label"> Last Name</label><br/>
                             <input
                                 id="lastName"
                                 type="text"

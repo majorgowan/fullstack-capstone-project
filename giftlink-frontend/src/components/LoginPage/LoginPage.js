@@ -58,7 +58,7 @@ function LoginPage() {
             //Step 2: Task 5
             document.getElementById("email").value="";
             document.getElementById("password").value="";
-            setIncorrect("Wrong password. Try again.");
+            setIncorrect("Wrong email or password. Try again.");
             setTimeout(() => {
                 setIncorrect("");
             }, 2000);
